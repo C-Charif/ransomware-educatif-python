@@ -1,34 +1,38 @@
-# 🔐 Projet : Ransomware éducatif en Python
+# 🔐 Project: Educational Ransomware in Python
 
 ## 📌 Description
-Ce projet a été réalisé dans le cadre d’un module de cybersécurité.  
-Il vise à comprendre le fonctionnement des ransomwares à des fins pédagogiques uniquement.
 
-⚠️ **Important :**
-Ce projet est strictement éducatif et doit être exécuté dans un environnement contrôlé.
+This project was developed as part of a cybersecurity course.
+Its goal is to understand how ransomware works for educational purposes only.
 
----
-
-## 🎯 Objectifs
-- Comprendre le chiffrement symétrique
-- Manipuler des fichiers avec Python
-- Implémenter un système de chiffrement/déchiffrement
-- Étudier les mécanismes des ransomwares
+⚠️ **Important:**
+This project is strictly educational and must be executed in a controlled environment.
 
 ---
 
-## 🛠️ Technologies utilisées
-- Python 3
-- Bibliothèque `cryptography` (Fernet)
+## 🎯 Objectives
+
+* Understand symmetric encryption
+* Manipulate files using Python
+* Implement an encryption/decryption system
+* Study ransomware mechanisms
 
 ---
 
-## 📂 Structure du projet
+## 🛠️ Technologies Used
+
+* Python 3
+* `cryptography` library (Fernet)
+
+---
+
+## 📂 Project Structure
+
 ```
 ransomware/
-│── rans.py        # Script de chiffrement
-│── decrypt.py     # Script de déchiffrement
-│── theKey.key     # Clé générée automatiquement
+│── rans.py        # Encryption script
+│── decrypt.py     # Decryption script
+│── theKey.key     # Automatically generated key
 │── README.md
 ```
 
@@ -36,52 +40,59 @@ ransomware/
 
 ## ⚙️ Installation
 
-### 1. Cloner le projet
+### 1. Clone the repository
+
 ```bash
-git clone https://github.com/ton-username/ransomware-project.git
-cd ransomware-project
+git clone  https://github.com/C-Charif/ransomware-educatif-python.git
+cd ransomware-educatif-python
 ```
 
-### 2. Installer les dépendances
+### 2. Install dependencies
+
 ```bash
 pip install cryptography
 ```
 
 ---
 
-## ▶️ Utilisation
+## ▶️ Usage
 
-### 🔒 Chiffrement
+### 🔒 Encryption
+
 ```bash
 python rans.py
 ```
 
-### 🔓 Déchiffrement
+### 🔓 Decryption
+
 ```bash
 python decrypt.py
 ```
 
 ---
 
-## 🔐 Fonctionnement
-- Génération d'une clé de chiffrement
-- Chiffrement des fichiers du dossier
-- Stockage de la clé dans `theKey.key`
-- Déchiffrement avec authentification (phrase secrète)
+## 🔐 How It Works
+
+* Generates an encryption key
+* Encrypts files in the directory
+* Stores the key in `theKey.key`
+* Decrypts files using authentication (secret passphrase)
 
 ---
 
-## ⚠️ Avertissement
-Ce projet est uniquement à but éducatif.  
-Toute utilisation malveillante est illégale.
+## ⚠️ Disclaimer
+
+This project is for educational purposes only.
+Any malicious use is illegal and unethical.
 
 ---
 
-## 👨‍💻 Auteur
-- Chaima Charif
-- Cycle d’ingénieur SIT 1
+## 👨‍💻 Author
+
+* Chaima Charif
 
 ---
 
 ## 📚 Conclusion
-Ce projet permet de mieux comprendre les attaques ransomware et les techniques de protection associées.
+
+This project helps in understanding ransomware attacks and the techniques used to defend against them.
